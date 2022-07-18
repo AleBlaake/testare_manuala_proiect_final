@@ -65,23 +65,64 @@ In order to start the testing process we need fulfill the following Entry criter
 
 <ul>
   <li>Functional testing</li>
-  <li>Blackbox testing: Equivalence partitionig, Boundary Value Analysis, Decision table</li>
+  <li>Blackbox testing: Equivalence partitioning, Boundary Value Analysis, Decision table</li>
   <li>Compatibility testing</li>
   <li>Usability testing</li>
 </ul>
 
 
 
+<h3>Risks detected</h3>
+
+<ol>
+  
+  <li>Project risks:</li>
+  <ul>
+    <li>Lack of experience of the Qa team</li>
+    <li>short deadline of the Zephyr application</li>
+    <li>lack of interaction with the development team</li>
+  </ul>
+  <li>Product risks
+    <ul>
+      <li>The abundance of the Hr platforms available on the market</li>
+    
+
+</ul>
+  </li>
+  </ol>
 
 
+<h2>Test Monitoring and Control</h2>
+For the Monitoring and control phase the following report was monitored between may and june of 2022
 
 
+![](https://user-images.githubusercontent.com/109094693/179553437-d68a9482-40c9-419a-8ef1-7cb32b29ddf7.png)
 
 
+<h2>Test Analysis</h2>
+The testing process will be executed based on the above requirements. The follwowing test conditions were created:
+
+<ul>
+  
+  <li>FA-24 - Verify user is able to add "termination reasons"</li>
+  <li>FA-21 - Verify that Admin can create a new "Reporting Methods"</li>
+  <li>FA-22 - Verify user can click the "cancel" button on adding a reporting methods</li>
+  <li>FA-23 - Verify user si able to clic the "delete" button on Reporting Methods</li>
+  <li>FA-20 - Verify Admin is able to import data from CSV file into the Configuration module</li>
+  <li>FA-18 - Verify Admin is able to ADD a Custom Field</li>
+  <li>FA-19 - Verify user is able to "delete" a custom field</li>
+  <li>FA-17 - Verify admin is able to configure the "optional fields"</li>
+  <li>FA-16 - Veify the Admin is able to delete a user </li>
+  <li>FA-14 - Verify System User List</li>
+  <li>FA-13 - Verify that the Hr Admin can create a User Role</li>
+  <li>FA-12 - Verify the structure of the Admin Module</li> 
+  
+</ul>
 
 
+<h2>Test design</h2>
 
-
+Functional test cases were created in Zephyr Squad based on the condition defined in previous steps.The test design tehniques used to defined the test cases were: Blackbox testing tehniques, especially functional testing and exploratory testing.
 
 
 
