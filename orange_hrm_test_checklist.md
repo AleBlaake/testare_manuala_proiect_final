@@ -124,5 +124,18 @@ The testing process will be executed based on the above requirements. The follwo
 
 Functional test cases were created in Zephyr Squad based on the condition defined in previous steps.The test design tehniques used to defined the test cases were: Blackbox testing tehniques, especially functional testing and exploratory testing.
 
+The following is a list of test cases that were created in the scope of the project.
+
+[test case check list](https://github.com/AleBlaake/testare_manuala_proiect_final/files/9133783/ZFJ-Cycles-07-18-2022.csv)
+
+
+
+
+
+
+
+
+
+
 
 
