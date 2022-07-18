@@ -1,0 +1,989 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>ZFJ - Html Report for Executions</title>
+        <script type="text/javascript">
+        function altRows ( id ) {
+            if ( document.getElementsByTagName ) {
+                var table = document.getElementById ( id ) ;
+                var rows = table.getElementsByTagName ( "tr" ) ;
+                for ( i = 0 ; i < rows.length ; i ++ ) {
+                    if ( i % 2 == 0 ) {
+                        rows[ i ].className = "evenrowcolor" ;
+                    } else {
+                        rows[ i ].className = "oddrowcolor" ;
+                    }
+                }
+            }
+        }
+        window.onload = function ( ) {
+            altRows ( 'alternatecolor' ) ;
+        }
+        </script>
+        <style type="text/css">
+        table.altrowstable {
+            font-family : verdana, arial, sans-serif ;
+            font-size : 9px ;
+            padding-left : 50px ;
+            color : #333333 ;
+            border-width : 1px ;
+            border-color : #a9c6c9 ;
+            border-collapse : collapse ;
+        }
+        table.altrowstable th {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        table.altrowstable thead {
+            font-weight : bold ;
+        }
+        table.altrowstable td {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        .oddrowcolor {
+            background-color : #d4e3e5 ;
+        }
+        .evenrowcolor {
+            background-color : none ;
+        }
+        </style>
+    </head>
+    <body>
+
+        <table class="altrowstable" id="alternatecolor" border="1" cellspacing="0" cellpadding="0" style="padding-left : 50 px ; overflow-y = scroll ;">
+            <thead>
+                <th>ExecutionId</th>
+                <th>Cycle</th>
+                <th>Folder Name</th>
+                <th>Issue Key</th>
+                <th>Test Summary</th>
+                <th>Project</th>
+                <th>Component</th>
+                <th>Version</th>
+                <th>Priority</th>
+                <th>Executed By</th>
+                <th>Executed On</th>
+                <th>Execution Status</th>
+                <th>Execution Defect(s)</th>
+                <th>Creation Date</th>
+                <th>Assigned To</th>
+                <th>Execution Custom Field</th>
+                <th>Work Flow Status</th>
+                <th>Total Execution Time</th>
+                <th>Total Logged Time</th>
+                <th>StepId</th>
+                <th>OrderId</th>
+                <th>Step</th>
+                <th>Test Data</th>
+                <th>Expected Result</th>
+                <th>Step Result</th>
+                <th>Comment</th>
+                <th>Test Step Custom Field</th>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <td rowspan="4">11253575-116a-44b2-a51b-3d137cc25e3c</td>
+                        <td rowspan="4">Admin Module</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">FA-12</td>
+                        <td rowspan="4">Verify the structure of the Admin Module </td>
+                        <td rowspan="4">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">OrangeHRM product launch</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Alexandra Istrati</td>
+                        <td rowspan="4">05-19-2022 19:53:47</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">05-19-2022 19:50:53</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>cd176e9f-bd4c-48f5-8ca6-107a39e95173</td>
+                            <td>1</td>
+                            <td><p>1. Launch OrangeHRM</p></td>
+                            <td><p>Orange HRM</p></td>
+                            <td><p>User should be able to launch Orange HRM</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>98eab4f6-49de-4bc9-b802-5d0e733ac32a</td>
+                            <td>2</td>
+                            <td><p>2. Login to Orange HRM with your credentials</p></td>
+                            <td><p>user and password available</p></td>
+                            <td><p>User should be able to login with no issues</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4041aea5-393d-4479-9586-09db6f2058c4</td>
+                            <td>3</td>
+                            <td><p>3.Check that the panel has the expected options:</p></td>
+                            <td><p>- User Management:</br>- Job</br>- Organization:</br>- Qualifications</br>- Nationalities</br>- Configuration:</p></td>
+                            <td><p>User should be able to see all options</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>421d6cad-e95c-4c17-8534-6302bb1ee931</td>
+                            <td>4</td>
+                            <td><p>4. Check if each option is selectable</p></td>
+                            <td><p>- User Management:</br>- Job</br>- Organization:</br>- Qualifications</br>- Nationalities</br>- Configuration:</p></td>
+                            <td><p>User should be able to select each option</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="5">61fd6494-f443-42cc-abde-31148908339b</td>
+                        <td rowspan="5">Admin Module</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">FA-21</td>
+                        <td rowspan="5">Verify that Admin can create a new &quot;Reporting Methods&quot;</td>
+                        <td rowspan="5">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">OrangeHRM product launch</td>
+                        <td rowspan="5">Medium</td>
+                        <td rowspan="5">Alexandra Istrati</td>
+                        <td rowspan="5">05-30-2022 20:07:01</td>
+                        <td rowspan="5">PASS</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">05-30-2022 18:51:28</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        
+                            <td>adb6526e-c2e2-4755-9177-4f5889996052</td>
+                            <td>1</td>
+                            <td><p>Launch Orange Hrm</p></td>
+                            <td></td>
+                            <td><p>User is able to launch the application</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>89d84ac3-8093-43ee-a0c6-3a7ce2a63e57</td>
+                            <td>2</td>
+                            <td><p>Go to PIM&#62;&#62; Configuration&#62;&#62; Reporting Methods and click “Add”</p></td>
+                            <td></td>
+                            <td><p>User is able to access the reporting method section</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a19aa107-b258-461d-81df-e32813f67f8b</td>
+                            <td>3</td>
+                            <td><p>Click on ADD to add a reporting method</p></td>
+                            <td></td>
+                            <td><p>Reporting method should be opened </p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>34b9da4e-0a11-4479-a75d-846cb206d8dc</td>
+                            <td>4</td>
+                            <td><p>Fill in a reporting method</p></td>
+                            <td></td>
+                            <td><p>User can fill in the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>40bdba14-f44f-430b-86f4-2538db4c3c05</td>
+                            <td>5</td>
+                            <td><p>Click on "Save"</p></td>
+                            <td></td>
+                            <td><p>Filed should be saved</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">7903865e-7c47-4bd8-9bc1-a4cf98dd5c42</td>
+                        <td rowspan="4">Admin Module</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">FA-22</td>
+                        <td rowspan="4">Verify user can click the &quot;cancel&quot; button on adding a reporting methods</td>
+                        <td rowspan="4">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">OrangeHRM product launch</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Alexandra Istrati</td>
+                        <td rowspan="4">05-30-2022 20:11:38</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">05-30-2022 18:51:57</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>7330b899-0fce-468f-9779-616482a0c6db</td>
+                            <td>1</td>
+                            <td><p>Launch Orange hrm</p></td>
+                            <td></td>
+                            <td><p>user is able to launch the app</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>8edc1622-8ed0-473a-8268-769c025f4394</td>
+                            <td>2</td>
+                            <td><p>Go to PIM&#62;&#62; Configuration&#62;&#62; Reporting Methods and click ADD</p></td>
+                            <td></td>
+                            <td><p>Reporting method window is shown</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c61e4ca5-7c96-4d10-97e6-96c1f3cac857</td>
+                            <td>3</td>
+                            <td><p>Fill in the field</p></td>
+                            <td></td>
+                            <td><p>Field is filled in</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>939193ed-c076-4e29-ae3e-e3a6182b24fd</td>
+                            <td>4</td>
+                            <td><p>Click on "cancel" button</p></td>
+                            <td></td>
+                            <td><p>Adding the reporting methods is cancelled</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">23f3ec80-b181-424f-9dbc-e79e2e6be902</td>
+                        <td rowspan="4">Admin Module</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">FA-23</td>
+                        <td rowspan="4">Verify user si able to clic the &quot;delete&quot; button on Reporting Methods</td>
+                        <td rowspan="4">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">OrangeHRM product launch</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Alexandra Istrati</td>
+                        <td rowspan="4">06-05-2022 19:21:57</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">05-30-2022 18:52:16</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>2abe22d3-4ddd-430b-8440-02ec5b2800cc</td>
+                            <td>1</td>
+                            <td><p>Launch Orange hrm</p></td>
+                            <td></td>
+                            <td><p>user is able to launch the application</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>87e8ca9e-053d-4cb2-8bd9-50c2dcb7d392</td>
+                            <td>2</td>
+                            <td><p>Go to PIM&#62;&#62; Configuration&#62;&#62; Reporting Methods</p></td>
+                            <td></td>
+                            <td><p>Reporting methods window is shown</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>56278cee-4a20-4b44-8a16-3b8a1a11ad55</td>
+                            <td>3</td>
+                            <td><p>Select the reporting method that has to be deleted</p></td>
+                            <td></td>
+                            <td><p>reporting method selected</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>67980e3b-154d-4e95-9ed1-14d245ac34d2</td>
+                            <td>4</td>
+                            <td><p>click on "delete" button</p></td>
+                            <td></td>
+                            <td><p>the selected reporting method is deleted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">35246613-a94e-471f-85e5-6623a91b0030</td>
+                        <td rowspan="4">Admin Module</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">FA-24</td>
+                        <td rowspan="4">Verify user is able to add &quot;termination reasons&quot;</td>
+                        <td rowspan="4">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">OrangeHRM product launch</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Alexandra Istrati</td>
+                        <td rowspan="4">06-05-2022 19:43:46</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">05-30-2022 18:52:34</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>1518e480-a61a-4d4c-b14c-fa563e6037dc</td>
+                            <td>1</td>
+                            <td><p>Launch Orange HRM</p></td>
+                            <td></td>
+                            <td><p>user is able to launch the application</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>faa53288-23b5-49f3-b206-3c88458cf8a7</td>
+                            <td>2</td>
+                            <td><p>To add a termination reason, Go to PIM&#62;&#62;Configuration&#62;&#62;Termination Reason and click “Add”</p></td>
+                            <td></td>
+                            <td><p>Termination reason window is opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>08206e6a-2efb-4978-8698-5fb78dea84ef</td>
+                            <td>3</td>
+                            <td><p>Complete the field to add a termination reason</p></td>
+                            <td></td>
+                            <td><p>termination reason cad be added</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4e6b99aa-bae0-4015-b246-bb6273ea8c2a</td>
+                            <td>4</td>
+                            <td><p>Click on "save" button to save</p></td>
+                            <td></td>
+                            <td><p>termination reason is added and can be seen on the termination reasons list</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">49f70caa-1184-46ff-9158-b207f5975b91</td>
+                        <td rowspan="3">Admin Module</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">FA-19</td>
+                        <td rowspan="3">Verify user is able to &quot;delete&quot; a custom field</td>
+                        <td rowspan="3">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">OrangeHRM product launch</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Alexandra Istrati</td>
+                        <td rowspan="3">05-30-2022 19:27:03</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">05-30-2022 18:50:43</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>c46662b3-fcd4-4b70-bf46-5eb7a1caf02b</td>
+                            <td>1</td>
+                            <td><p>Launch Orange hrm</p></td>
+                            <td></td>
+                            <td><p>Admin is able to launch the application</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>2349ed2a-3218-47be-8f41-b3273aeb7d79</td>
+                            <td>2</td>
+                            <td><p>3.Go to PIM&#62;&#62;Configuration&#62;&#62;Custom Fields</p></td>
+                            <td></td>
+                            <td><p>User is able to access "custom fields"</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c18d3921-0b02-479f-b286-2c3d1725a969</td>
+                            <td>3</td>
+                            <td><p>Click on "define custom field" and click "delete"</p></td>
+                            <td></td>
+                            <td><p>User is able to "delete" a custom field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">7fcf8193-18e5-4606-86c4-52242fff581d</td>
+                        <td rowspan="6">Admin Module</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">FA-18</td>
+                        <td rowspan="6">Verify Admin is able to ADD a Custom Field</td>
+                        <td rowspan="6">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">OrangeHRM product launch</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">Alexandra Istrati</td>
+                        <td rowspan="6">05-30-2022 19:24:33</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">05-30-2022 18:50:26</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>e4addcaa-e659-4196-8706-55bf05e918cf</td>
+                            <td>1</td>
+                            <td><p>1. Launch Orange hrm</p></td>
+                            <td></td>
+                            <td><p>Admin can launch the application</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>be15d91f-7927-4bdb-9087-add3a27078ce</td>
+                            <td>2</td>
+                            <td><p>2.Go to go to PIM&#62;&#62;Configuration&#62;&#62;Custom Fields, click “Add”</p></td>
+                            <td></td>
+                            <td><p>Admin should be able to open the "Add custom fields" window</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>581e2565-b57b-4f25-b5a1-9fc40d848774</td>
+                            <td>3</td>
+                            <td><p>3. Fill in all the details for the "add custom field" window</p></td>
+                            <td></td>
+                            <td><p>The user should be able to fill in all the necessary fields</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3439fc57-018e-40a2-89a1-e4dbbcf7470e</td>
+                            <td>4</td>
+                            <td><p>4.Click SAVE after fill in all the necessary fields</p></td>
+                            <td></td>
+                            <td><p>Admin should be able to save all the added informations</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>42b35699-b18a-4e1f-b4d6-0129546cd077</td>
+                            <td>5</td>
+                            <td><p>5.Click on "add" button in order to add a custom field</p></td>
+                            <td></td>
+                            <td><p>Admin is able to add multiple "custom fields"</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>438415e2-ed8d-40e9-bcc2-fb20784650d6</td>
+                            <td>6</td>
+                            <td><p>6.Click "save" to save all the information added</p></td>
+                            <td></td>
+                            <td><p>Information should be saved</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">a40aae22-4c73-4914-ab37-93098a85282d</td>
+                        <td rowspan="3">Admin Module</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">FA-13</td>
+                        <td rowspan="3">Verify that the Hr Admin can create a User Role</td>
+                        <td rowspan="3">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">OrangeHRM product launch</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Alexandra Istrati</td>
+                        <td rowspan="3">05-30-2022 18:59:27</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">05-19-2022 20:22:11</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>bf666921-60a9-49cc-acff-e7ba2944e7ff</td>
+                            <td>1</td>
+                            <td><p>1. Go to Admin&#62;&#62; User Management&#62;&#62; Users and click “Add</p></td>
+                            <td><p>Admin&#62;&#62; User Management&#62;&#62; Users and click “Add</p></td>
+                            <td><p>User is able to aces the ADD section</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>7855ca12-944c-4d58-8472-65c6592519a0</td>
+                            <td>2</td>
+                            <td><p>2. Fill all the necessary field</p></td>
+                            <td><p>Admin&#62;&#62; User Management&#62;&#62; Users and click “Add</p></td>
+                            <td><p>User is able to fill all the fields</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4ee132d4-36c1-476f-b7ef-f8b0b0ed0615</td>
+                            <td>3</td>
+                            <td><p>3. Click “Save” once the fields are added.</p></td>
+                            <td></td>
+                            <td><p>User is able to click "save" and can save the information</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">f0264089-be3c-4edd-9b7a-c69b8bc06159</td>
+                        <td rowspan="3">Admin Module</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">FA-15</td>
+                        <td rowspan="3">Verify that Hr Admin can reset the search</td>
+                        <td rowspan="3">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">OrangeHRM product launch</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Alexandra Istrati</td>
+                        <td rowspan="3">05-30-2022 19:11:10</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">05-19-2022 20:46:04</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>e900197f-2176-414a-a0c4-907c9d2354f1</td>
+                            <td>1</td>
+                            <td><p>1. Launch Orange hrm</p></td>
+                            <td></td>
+                            <td><p>User is able to launch the app</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>442fd68b-ac39-4e6e-96cc-cd152049eeb8</td>
+                            <td>2</td>
+                            <td><p>2. Fill in the system user</p></td>
+                            <td></td>
+                            <td><p>User should be able to fill the system user and save it</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c15d7a85-0059-47bc-bdbf-3ffb0b89e3ae</td>
+                            <td>3</td>
+                            <td><p>3. Click on "reset" button t reset the search</p></td>
+                            <td></td>
+                            <td><p>User should be able to reset the search</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">84176335-c379-4634-9193-65932fdf440e</td>
+                        <td rowspan="2">Admin Module</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">FA-14</td>
+                        <td rowspan="2">Verify System User List</td>
+                        <td rowspan="2">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">OrangeHRM product launch</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">Alexandra Istrati</td>
+                        <td rowspan="2">05-30-2022 19:08:37</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">05-19-2022 20:34:51</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        
+                            <td>00ddce41-a90b-42c2-aacb-c3a2998c9d69</td>
+                            <td>1</td>
+                            <td><p>Go to Admin &#62;user management &#62; users</p></td>
+                            <td><p>Admin &#62;user management &#62; users</p></td>
+                            <td><p>the admin can access the system users successfuly</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>45e14c3b-2d18-48f2-8faa-46e704796f63</td>
+                            <td>2</td>
+                            <td><p>check the system user list</p></td>
+                            <td><p>- user name</br>- user role </br>- employee name </br>- status</p></td>
+                            <td><p>System user list should be shown</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">4d774d4b-2768-484c-957e-172c6154ae00</td>
+                        <td rowspan="4">Admin Module</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">FA-16</td>
+                        <td rowspan="4">Veify the Admin is able to delete a user </td>
+                        <td rowspan="4">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">OrangeHRM product launch</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Alexandra Istrati</td>
+                        <td rowspan="4">05-30-2022 19:14:38</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">05-30-2022 18:49:50</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>5c9e99c1-c06f-4bba-851a-9790ac73a54f</td>
+                            <td>1</td>
+                            <td><p>1.Launch Orange Hrm</p></td>
+                            <td></td>
+                            <td><p>User is able to launch the application</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>7b28108f-51b8-4c4e-a80e-d064050ffd58</td>
+                            <td>2</td>
+                            <td><p>2. Check the System User list</p></td>
+                            <td></td>
+                            <td><p>Admin shoulbe able to see the entire list</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5a8a3729-4e33-4dac-8c47-77cb05cb56a0</td>
+                            <td>3</td>
+                            <td><p>3.Check on the user that you need to delete</p></td>
+                            <td></td>
+                            <td><p>User should be able to be checked</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ca464c58-7473-4ea8-8d03-86c0ac5b64ba</td>
+                            <td>4</td>
+                            <td><p>4. Click on "Delete" in order to delete the user</p></td>
+                            <td></td>
+                            <td><p>Admin should be able to delete the chosen user</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">1ddd4742-3003-4c16-8d19-97a49ca2fbca</td>
+                        <td rowspan="4">Admin Module</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">FA-20</td>
+                        <td rowspan="4">Verify Admin is able to import data from CSV file into the Configuration module</td>
+                        <td rowspan="4">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">OrangeHRM product launch</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Alexandra Istrati</td>
+                        <td rowspan="4">05-30-2022 19:54:30</td>
+                        <td rowspan="4">FAIL</td>
+                        <td rowspan="4">FA-25</td>
+                        <td rowspan="4">05-30-2022 18:51:07</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>9dd045fb-c999-4679-bb38-b48ccd00e0df</td>
+                            <td>1</td>
+                            <td><p>Launch Orange hrm</p></td>
+                            <td></td>
+                            <td><p>Admin si able to access the app</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>13a69c21-176b-48e8-82a5-421d55005a5a</td>
+                            <td>2</td>
+                            <td><p>Go to PIM&#62;&#62; Configuration&#62;&#62;</br>Data Import</p></td>
+                            <td></td>
+                            <td><p>CSV Data Import is shown</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>1f3cf3d8-cc74-4bc8-9990-5fdc934453fa</td>
+                            <td>3</td>
+                            <td><p>Click on "Browse"</p></td>
+                            <td></td>
+                            <td><p>User can click the "select" button</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a339236f-d940-408b-acd0-ad6ba0e396d4</td>
+                            <td>4</td>
+                            <td><p>Select a CSV file and click "Upload"</p></td>
+                            <td></td>
+                            <td><p>User is able to upload the CVS file</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">4aed54c1-9f7b-4299-897a-a16e9f4c4282</td>
+                        <td rowspan="4">Admin Module</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">FA-17</td>
+                        <td rowspan="4">Verify admin is able to configure the &quot;optional fields&quot;</td>
+                        <td rowspan="4">FinalProject_AlexandraIstrati</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">OrangeHRM product launch</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">Alexandra Istrati</td>
+                        <td rowspan="4">05-30-2022 19:18:28</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4">FA-26</td>
+                        <td rowspan="4">05-30-2022 18:50:10</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>d578b3a7-98a2-4ac7-ae34-2b38dcbd95ce</td>
+                            <td>1</td>
+                            <td><p>1.Launch Orange HRM</p></td>
+                            <td></td>
+                            <td><p>Admin is able to launch the application</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>9187de1d-eb2a-4400-9169-b30de8e894dd</td>
+                            <td>2</td>
+                            <td><p>2.Go to PIM&#62;&#62; Configuration&#62;&#62; Optional</br>Fields</p></td>
+                            <td></td>
+                            <td><p>Admin is able to access the Optional Fields</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9b4f1b35-fc37-49c8-a956-a7b4132f69bc</td>
+                            <td>3</td>
+                            <td><p>3.Check that each option is clickable</p></td>
+                            <td></td>
+                            <td><p>All options should be clickable</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c9911b31-3f09-409b-8af6-a3654cb37a43</td>
+                            <td>4</td>
+                            <td><p>4.Click "SAVE" after selecting each option</p></td>
+                            <td></td>
+                            <td><p>Every option that was checked should reflect the employees personal details</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td>d579d1a5-71c3-426e-98d6-2880fd48845f</td>
+                        <td>Admin Module</td>
+                        <td></td>
+                        <td>FA-35</td>
+                        <td>Exploratory testing </td>
+                        <td>FinalProject_AlexandraIstrati</td>
+                        <td></td>
+                        <td>OrangeHRM product launch</td>
+                        <td>Medium</td>
+                        <td>Alexandra Istrati</td>
+                        <td>06-22-2022 19:15:52</td>
+                        <td>FAIL</td>
+                        <td>FA-27,FA-28,FA-29,FA-30,FA-31,FA-32,FA-33</td>
+                        <td>06-22-2022 19:05:48</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                    </tr>
+                
+            
+            </tbody>
+        </table>
+    </body>
+</html>
