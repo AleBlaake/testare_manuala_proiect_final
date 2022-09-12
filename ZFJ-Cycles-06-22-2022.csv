@@ -1,0 +1,67 @@
+ExecutionId,Cycle,Folder Name,Issue Key,Test Summary,Project,Component,Version,Priority,Executed By,Executed On,Execution Status,Execution Defect(s),Creation Date,Assigned To,Execution Custom Field,Work Flow Status,Total Execution Time,Total Logged Time,StepId,OrderId,Step,Test Data,Expected Result,Step Result,Comment,Test Step Custom Field
+11253575-116a-44b2-a51b-3d137cc25e3c,Admin Module,,FA-12,Verify the structure of the Admin Module,FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-19-2022 19:53:47,PASS,,05-19-2022 19:50:53,,,,,,cd176e9f-bd4c-48f5-8ca6-107a39e95173,1,1. Launch OrangeHRM,Orange HRM,User should be able to launch Orange HRM,PASS,,
+98eab4f6-49de-4bc9-b802-5d0e733ac32a,2,2. Login to Orange HRM with your credentials,user and password available,User should be able to login with no issues,UNEXECUTED,,
+4041aea5-393d-4479-9586-09db6f2058c4,3,3.Check that the panel has the expected options:,"- User Management:
+- Job
+- Organization:
+- Qualifications
+- Nationalities
+- Configuration:",User should be able to see all options,UNEXECUTED,,
+421d6cad-e95c-4c17-8534-6302bb1ee931,4,4. Check if each option is selectable,"- User Management:
+- Job
+- Organization:
+- Qualifications
+- Nationalities
+- Configuration:",User should be able to select each option,UNEXECUTED,,
+61fd6494-f443-42cc-abde-31148908339b,Admin Module,,FA-21,"Verify that Admin can create a new ""Reporting Methods""",FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 20:07:01,PASS,,05-30-2022 18:51:28,,,,,,adb6526e-c2e2-4755-9177-4f5889996052,1,Launch Orange Hrm,,User is able to launch the application,PASS,,
+89d84ac3-8093-43ee-a0c6-3a7ce2a63e57,2,Go to PIM>> Configuration>> Reporting Methods and click “Add”,,User is able to access the reporting method section,PASS,,
+a19aa107-b258-461d-81df-e32813f67f8b,3,Click on ADD to add a reporting method,,Reporting method should be opened,PASS,,
+34b9da4e-0a11-4479-a75d-846cb206d8dc,4,Fill in a reporting method,,User can fill in the field,PASS,,
+40bdba14-f44f-430b-86f4-2538db4c3c05,5,"Click on ""Save""",,Filed should be saved,PASS,,
+7903865e-7c47-4bd8-9bc1-a4cf98dd5c42,Admin Module,,FA-22,"Verify user can click the ""cancel"" button on adding a reporting methods",FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 20:11:38,PASS,,05-30-2022 18:51:57,,,,,,7330b899-0fce-468f-9779-616482a0c6db,1,Launch Orange hrm,,user is able to launch the app,PASS,,
+8edc1622-8ed0-473a-8268-769c025f4394,2,Go to PIM>> Configuration>> Reporting Methods and click ADD,,Reporting method window is shown,PASS,,
+c61e4ca5-7c96-4d10-97e6-96c1f3cac857,3,Fill in the field,,Field is filled in,PASS,,
+939193ed-c076-4e29-ae3e-e3a6182b24fd,4,"Click on ""cancel"" button",,Adding the reporting methods is cancelled,PASS,,
+23f3ec80-b181-424f-9dbc-e79e2e6be902,Admin Module,,FA-23,"Verify user si able to clic the ""delete"" button on Reporting Methods",FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,06-05-2022 19:21:57,PASS,,05-30-2022 18:52:16,,,,,,2abe22d3-4ddd-430b-8440-02ec5b2800cc,1,Launch Orange hrm,,user is able to launch the application,PASS,,
+87e8ca9e-053d-4cb2-8bd9-50c2dcb7d392,2,Go to PIM>> Configuration>> Reporting Methods,,Reporting methods window is shown,PASS,,
+56278cee-4a20-4b44-8a16-3b8a1a11ad55,3,Select the reporting method that has to be deleted,,reporting method selected,PASS,,
+67980e3b-154d-4e95-9ed1-14d245ac34d2,4,"click on ""delete"" button",,the selected reporting method is deleted,PASS,,
+35246613-a94e-471f-85e5-6623a91b0030,Admin Module,,FA-24,"Verify user is able to add ""termination reasons""",FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,06-05-2022 19:43:46,PASS,,05-30-2022 18:52:34,,,,,,1518e480-a61a-4d4c-b14c-fa563e6037dc,1,Launch Orange HRM,,user is able to launch the application,PASS,,
+faa53288-23b5-49f3-b206-3c88458cf8a7,2,"To add a termination reason, Go to PIM>>Configuration>>Termination Reason and click “Add”",,Termination reason window is opened,PASS,,
+08206e6a-2efb-4978-8698-5fb78dea84ef,3,Complete the field to add a termination reason,,termination reason cad be added,PASS,,
+4e6b99aa-bae0-4015-b246-bb6273ea8c2a,4,"Click on ""save"" button to save",,termination reason is added and can be seen on the termination reasons list,PASS,,
+49f70caa-1184-46ff-9158-b207f5975b91,Admin Module,,FA-19,"Verify user is able to ""delete"" a custom field",FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 19:27:03,PASS,,05-30-2022 18:50:43,,,,,,c46662b3-fcd4-4b70-bf46-5eb7a1caf02b,1,Launch Orange hrm,,Admin is able to launch the application,PASS,,
+2349ed2a-3218-47be-8f41-b3273aeb7d79,2,3.Go to PIM>>Configuration>>Custom Fields,,"User is able to access ""custom fields""",PASS,,
+c18d3921-0b02-479f-b286-2c3d1725a969,3,"Click on ""define custom field"" and click ""delete""",,"User is able to ""delete"" a custom field",PASS,,
+7fcf8193-18e5-4606-86c4-52242fff581d,Admin Module,,FA-18,Verify Admin is able to ADD a Custom Field,FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 19:24:33,PASS,,05-30-2022 18:50:26,,,,,,e4addcaa-e659-4196-8706-55bf05e918cf,1,1. Launch Orange hrm,,Admin can launch the application,PASS,,
+be15d91f-7927-4bdb-9087-add3a27078ce,2,"2.Go to go to PIM>>Configuration>>Custom Fields, click “Add”",,"Admin should be able to open the ""Add custom fields"" window",PASS,,
+581e2565-b57b-4f25-b5a1-9fc40d848774,3,"3. Fill in all the details for the ""add custom field"" window",,The user should be able to fill in all the necessary fields,PASS,,
+3439fc57-018e-40a2-89a1-e4dbbcf7470e,4,4.Click SAVE after fill in all the necessary fields,,Admin should be able to save all the added informations,PASS,,
+42b35699-b18a-4e1f-b4d6-0129546cd077,5,"5.Click on ""add"" button in order to add a custom field",,"Admin is able to add multiple ""custom fields""",PASS,,
+438415e2-ed8d-40e9-bcc2-fb20784650d6,6,"6.Click ""save"" to save all the information added",,Information should be saved,PASS,,
+a40aae22-4c73-4914-ab37-93098a85282d,Admin Module,,FA-13,Verify that the Hr Admin can create a User Role,FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 18:59:27,PASS,,05-19-2022 20:22:11,,,,,,bf666921-60a9-49cc-acff-e7ba2944e7ff,1,1. Go to Admin>> User Management>> Users and click “Add,Admin>> User Management>> Users and click “Add,User is able to aces the ADD section,PASS,,
+7855ca12-944c-4d58-8472-65c6592519a0,2,2. Fill all the necessary field,Admin>> User Management>> Users and click “Add,User is able to fill all the fields,PASS,,
+4ee132d4-36c1-476f-b7ef-f8b0b0ed0615,3,3. Click “Save” once the fields are added.,,"User is able to click ""save"" and can save the information",PASS,,
+f0264089-be3c-4edd-9b7a-c69b8bc06159,Admin Module,,FA-15,Verify that Hr Admin can reset the search,FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 19:11:10,PASS,,05-19-2022 20:46:04,,,,,,e900197f-2176-414a-a0c4-907c9d2354f1,1,1. Launch Orange hrm,,User is able to launch the app,PASS,,
+442fd68b-ac39-4e6e-96cc-cd152049eeb8,2,2. Fill in the system user,,User should be able to fill the system user and save it,PASS,,
+c15d7a85-0059-47bc-bdbf-3ffb0b89e3ae,3,"3. Click on ""reset"" button t reset the search",,User should be able to reset the search,PASS,,
+84176335-c379-4634-9193-65932fdf440e,Admin Module,,FA-14,Verify System User List,FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 19:08:37,PASS,,05-19-2022 20:34:51,,,,,,00ddce41-a90b-42c2-aacb-c3a2998c9d69,1,Go to Admin >user management > users,Admin >user management > users,the admin can access the system users successfuly,PASS,,
+45e14c3b-2d18-48f2-8faa-46e704796f63,2,check the system user list,"- user name
+- user role 
+- employee name 
+- status",System user list should be shown,PASS,,
+4d774d4b-2768-484c-957e-172c6154ae00,Admin Module,,FA-16,Veify the Admin is able to delete a user,FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 19:14:38,PASS,,05-30-2022 18:49:50,,,,,,5c9e99c1-c06f-4bba-851a-9790ac73a54f,1,1.Launch Orange Hrm,,User is able to launch the application,PASS,,
+7b28108f-51b8-4c4e-a80e-d064050ffd58,2,2. Check the System User list,,Admin shoulbe able to see the entire list,PASS,,
+5a8a3729-4e33-4dac-8c47-77cb05cb56a0,3,3.Check on the user that you need to delete,,User should be able to be checked,PASS,,
+ca464c58-7473-4ea8-8d03-86c0ac5b64ba,4,"4. Click on ""Delete"" in order to delete the user",,Admin should be able to delete the chosen user,PASS,,
+1ddd4742-3003-4c16-8d19-97a49ca2fbca,Admin Module,,FA-20,Verify Admin is able to import data from CSV file into the Configuration module,FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 19:54:30,FAIL,FA-25,05-30-2022 18:51:07,,,,,,9dd045fb-c999-4679-bb38-b48ccd00e0df,1,Launch Orange hrm,,Admin si able to access the app,PASS,,
+13a69c21-176b-48e8-82a5-421d55005a5a,2,"Go to PIM>> Configuration>>
+Data Import",,CSV Data Import is shown,PASS,,
+1f3cf3d8-cc74-4bc8-9990-5fdc934453fa,3,"Click on ""Browse""",,"User can click the ""select"" button",PASS,,
+a339236f-d940-408b-acd0-ad6ba0e396d4,4,"Select a CSV file and click ""Upload""",,User is able to upload the CVS file,FAIL,,
+4aed54c1-9f7b-4299-897a-a16e9f4c4282,Admin Module,,FA-17,"Verify admin is able to configure the ""optional fields""",FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,05-30-2022 19:18:28,PASS,FA-26,05-30-2022 18:50:10,,,,,,d578b3a7-98a2-4ac7-ae34-2b38dcbd95ce,1,1.Launch Orange HRM,,Admin is able to launch the application,PASS,,
+9187de1d-eb2a-4400-9169-b30de8e894dd,2,"2.Go to PIM>> Configuration>> Optional
+Fields",,Admin is able to access the Optional Fields,PASS,,
+9b4f1b35-fc37-49c8-a956-a7b4132f69bc,3,3.Check that each option is clickable,,All options should be clickable,PASS,,
+c9911b31-3f09-409b-8af6-a3654cb37a43,4,"4.Click ""SAVE"" after selecting each option",,Every option that was checked should reflect the employees personal details,PASS,,
+d579d1a5-71c3-426e-98d6-2880fd48845f,Admin Module,,FA-35,Exploratory testing,FinalProject_AlexandraIstrati,,OrangeHRM product launch,Medium,Alexandra Istrati,06-22-2022 19:15:52,FAIL,"FA-27,FA-28,FA-29,FA-30,FA-31,FA-32,FA-33",06-22-2022 19:05:48,,,,,,,,,,,,
