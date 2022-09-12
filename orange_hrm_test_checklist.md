@@ -151,13 +151,13 @@ The following elements were prepared for the Test Execution phase:
   <li>FA-25] User is not able to upload e cvs file </li>
   <li>FA-26] Employee list tab is highlitghted by default</li>
   <li>[FA-27] Unexpected message returns after requesting vacation</li>
-  <li>FA-28] Adding the attachmet on "qualification", an error is shown " required" overlaps</li>
-  <li>FA-29] User is not informet about the limit of the comment that he can write</li>
-  <li>FA-30] Comments section from "Manage Performance Tracker Log " has not a limit of characters </li>
-  <li>FA-31] Bachelor degree option, from "Education" > "Add" appears 2 times</li>
-  <li>FA-32] Error message is shown "413 Request Entity Too Large" when user
+  <li>[FA-28] Adding the attachmet on "qualification", an error is shown " required" overlaps</li>
+  <li>[FA-29] User is not informet about the limit of the comment that he can write</li>
+  <li>[FA-30] Comments section from "Manage Performance Tracker Log " has not a limit of characters </li>
+  <li>[FA-31] Bachelor degree option, from "Education" > "Add" appears 2 times</li>
+  <li>[FA-32] Error message is shown "413 Request Entity Too Large" when user
     uploads a document bigger than 1MB on the "Add Job Title" section</li>
-  <li>FA-33] Supervisor not recognized when addind a review request</li>
+  <li>[FA-33] Supervisor not recognized when addind a review request</li>
   
   </ul>
   
