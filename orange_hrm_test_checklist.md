@@ -122,7 +122,7 @@ The testing process will be executed based on the above requirements. The follwo
 
 <h2>Test design</h2>
 
-Functional test cases were created in Zephyr Squad based on the condition defined in previous steps.The test design tehniques used to defined the test cases were: Blackbox testing tehniques, especially functional testing and exploratory testing.
+Functional test cases were created in Zephyr Squad based on the conditions defined in the previous steps. The test design techniques used to defined the test cases were: Blackbox testing techniques, especially functional testing and exploratory testing.
 
 The following is a list of test cases that were created in the scope of the project.
 
