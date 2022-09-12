@@ -148,8 +148,8 @@ The following elements were prepared for the Test Execution phase:
   
   <ul>
   
-  <li>FA-25] User is not able to upload e cvs file </li>
-  <li>FA-26] Employee list tab is highlitghted by default</li>
+  <li>[FA-25] User is not able to upload e cvs file </li>
+  <li>[FA-26] Employee list tab is highlitghted by default</li>
   <li>[FA-27] Unexpected message returns after requesting vacation</li>
   <li>[FA-28] Adding the attachmet on "qualification", an error is shown " required" overlaps</li>
   <li>[FA-29] User is not informet about the limit of the comment that he can write</li>
