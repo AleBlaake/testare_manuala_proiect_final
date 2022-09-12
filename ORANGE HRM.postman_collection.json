@@ -1,0 +1,539 @@
+{
+	"info": {
+		"_postman_id": "6eadc12d-936f-4db0-9277-dab313795845",
+		"name": "ORANGE HRM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "01.Save employee",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.globals.get(\"token\");",
+							"pm.test(\"variable name is token\", function () {",
+							"    pm.expect(pm.environment.has('token')).to.equal(true)})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstName\":\"casandra\",\n\"lastName\":\"blablabla\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/1",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "02.Employee detail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/63",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"63"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "03. Update employee detail",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"code\":\"abdhdjdjdkdkdkdkdkdkdkdkdkdkdkkdkdkdkkdkdkkkkklllm\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/63",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"63"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " 04.Terminate Employment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\" : \"5\" ,\n\"date\" : \"2022-05-10\" ,\n\"reason\" : \"terminate\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/5/action/terminate",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"5",
+						"action",
+						"terminate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "05.Employee Search",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/search",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "06.  Employee contact detail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/1/contact-detail",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"1",
+						"contact-detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "07.Save Employee Contact Detail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": \"2\",\n\"addressStreet1\": \"victoriei\",\n\"city\": \"bucharest\",\n\"mobile\": \"0746149449\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/50/contact-detail",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"50",
+						"contact-detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "08. Update employee contact detail",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adressStreet1\": \"victoriei\",\n\"city\": \"bucharest\",\n\"zip\": \"040120\",\n\"mobile\" :\"0746149449\",\n\"homeTelephone\" : \"021345667\",\n\"workEmail\" : \"alexandra.istrati@wipro.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/8/contact-detail",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"8",
+						"contact-detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "09. Employee dependent",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/1/dependent",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"1",
+						"dependent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10.Delete Employee Dependents",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"sequenceNumber\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/1/dependent",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"1",
+						"dependent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "11.Update Employee Dependents (bug found)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"43\" ,\n\"name\":\"DilshadS S\" ,\n\"sequenceNumber\":\"0256\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/43/dependent",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"43",
+						"dependent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "12.Save Employee Dependent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"ana\",\n\"relationship\": \"married\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/1/dependent",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"1",
+						"dependent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " 13.Employee Job Detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/2/job-detail",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"2",
+						"job-detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"client_id\":\"ale\",\n\"client_secret\":\"alecereale\",\n\"grant_type\":\"client_credentials\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/index.php/oauth/issueToken?",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"index.php",
+						"oauth",
+						"issueToken"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
