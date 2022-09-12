@@ -130,11 +130,14 @@ The following is a list of test cases that were created in the scope of the proj
 The following is a list of test cases for API that were created in the scope of the project: [API check list](https://github.com/AleBlaake/testare_manuala_proiect_final/blob/main/ORANGE%20HRM.postman_collection.json) 
 
 
+<h2>Test Implementation </h2>
 
+The following elements were prepared for the Test Execution phase:
 
-
-
-
+<ul>
+  <li>Test enviroment: https://opensource-demo.orangehrmlive.com</li>
+  <li>Access credentials: Admin / admin123</li>
+  <li>Cycle Summary was created: [ZFJ-Cycles-07-18-2022(2).csv](https://github.com/AleBlaake/testare_manuala_proiect_final/files/9550015/ZFJ-Cycles-07-18-2022.2.csv)</li>
 
 
 
