@@ -138,6 +138,43 @@ The following elements were prepared for the Test Execution phase:
   <li>Test enviroment: https://opensource-demo.orangehrmlive.com</li>
   <li>Access credentials: Admin / admin123</li>
   <li>Cycle Summary was created: [ZFJ-Cycles-07-18-2022(2).csv](https://github.com/AleBlaake/testare_manuala_proiect_final/files/9550015/ZFJ-Cycles-07-18-2022.2.csv)</li>
+  <li>Test cases were added to the Cycle summary</li>
+  <li>Test data was prepared</li>
+  </ul>
+  
+  <h2>Test Execution</h2>
+  The test cases were executed based on the above Cycle summary
+  The following bugs were found:
+  
+  <ul>
+  
+  <li>FA-25] User is not able to upload e cvs file </li>
+  <li>FA-26] Employee list tab is highlitghted by default</li>
+  <li>[FA-27] Unexpected message returns after requesting vacation</li>
+  <li>FA-28] Adding the attachmet on "qualification", an error is shown " required" overlaps</li>
+  <li>FA-29] User is not informet about the limit of the comment that he can write</li>
+  <li>FA-30] Comments section from "Manage Performance Tracker Log " has not a limit of characters </li>
+  <li>FA-31] Bachelor degree option, from "Education" > "Add" appears 2 times</li>
+  <li>FA-32] Error message is shown "413 Request Entity Too Large" when user
+    uploads a document bigger than 1MB on the "Add Job Title" section</li>
+  <li>FA-33] Supervisor not recognized when addind a review request</li>
+  
+  </ul>
+  
+  The full descrption of the bug reports were added in the folowing file: [List of bug reports](https://github.com/AleBlaake/testare_manuala_proiect_final/files/9550141/Jira.pdf)
+  
+  Full regression testing is needed after fixing the bugs.
+  
+  
+  <h2>Test Completion</h2>
+  
+  As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+  The traceability matrix was generated and can be found here: [Orange Hrm Traceability matrix](https://github.com/AleBlaake/testare_manuala_proiect_final/files/9550190/EXPORT.JIRA.Forward.Traceability_22_6_2022.xlsx)
+
+  Test execution chart was generated, the final report shows that a number 2 tests have failed of a total of 14
+  A number of 14 test cases were planned for execution and all of them were executed
+  A number of 8 total bugs were found
+
 
 
 
